@@ -1,0 +1,1479 @@
+<!DOCTYPE html><html lang="pl" dir="ltr"><head>
+   <script src="js/pending-order-popup.js"></script>
+   <script src="js/invalid-phone-popup.js"></script>
+   <script src="js/scroll.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Kupić Remofix tanio. Ceny, opinie. Zamów Remofix teraz!</title>
+   <link rel="icon" href="favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <script data-polyfil="webp">
+      ! function(e, n, A) {
+         function o(e, n) {
+            return typeof e === n
+         }
+
+         function t() {
+            var e, n, A, t, a, i, l;
+            for (var f in r)
+               if (r.hasOwnProperty(f)) {
+                  if (e = [], n = r[f], n.name && (e.push(n.name.toLowerCase()), n.options && n.options.aliases && n.options.aliases.length))
+                     for (A = 0; A < n.options.aliases.length; A++) e.push(n.options.aliases[A].toLowerCase());
+                  for (t = o(n.fn, "function") ? n.fn() : n.fn, a = 0; a < e.length; a++) i = e[a], l = i.split("."), 1 === l.length ? Modernizr[l[0]] = t : (!Modernizr[l[0]] || Modernizr[l[0]] instanceof Boolean || (Modernizr[l[0]] = new Boolean(Modernizr[l[0]])), Modernizr[l[0]][l[1]] = t), s.push((t ? "" : "no-") + l.join("-"))
+               }
+         }
+
+         function a(e) {
+            var n = u.className,
+               A = Modernizr._config.classPrefix || "";
+            if (c && (n = n.baseVal), Modernizr._config.enableJSClass) {
+               var o = new RegExp("(^|\s)" + A + "no-js(\s|$)");
+               n = n.replace(o, "$1" + A + "js$2")
+            }
+            Modernizr._config.enableClasses && (n += " " + A + e.join(" " + A), c ? u.className.baseVal = n : u.className = n)
+         }
+
+         function i(e, n) {
+            if ("object" == typeof e)
+               for (var A in e) f(e, A) && i(A, e[A]);
+            else {
+               e = e.toLowerCase();
+               var o = e.split("."),
+                  t = Modernizr[o[0]];
+               if (2 == o.length && (t = t[o[1]]), "undefined" != typeof t) return Modernizr;
+               n = "function" == typeof n ? n() : n, 1 == o.length ? Modernizr[o[0]] = n : (!Modernizr[o[0]] || Modernizr[o[0]] instanceof Boolean || (Modernizr[o[0]] = new Boolean(Modernizr[o[0]])), Modernizr[o[0]][o[1]] = n), a([(n && 0 != n ? "" : "no-") + o.join("-")]), Modernizr._trigger(e, n)
+            }
+            return Modernizr
+         }
+         var s = [],
+            r = [],
+            l = {
+               _version: "3.6.0",
+               _config: {
+                  classPrefix: "",
+                  enableClasses: !0,
+                  enableJSClass: !0,
+                  usePrefixes: !0
+               },
+               _q: [],
+               on: function(e, n) {
+                  var A = this;
+                  setTimeout(function() {
+                     n(A[e])
+                  }, 0)
+               },
+               addTest: function(e, n, A) {
+                  r.push({
+                     name: e,
+                     fn: n,
+                     options: A
+                  })
+               },
+               addAsyncTest: function(e) {
+                  r.push({
+                     name: null,
+                     fn: e
+                  })
+               }
+            },
+            Modernizr = function() {};
+         Modernizr.prototype = l, Modernizr = new Modernizr;
+         var f, u = n.documentElement,
+            c = "svg" === u.nodeName.toLowerCase();
+         ! function() {
+            var e = {}.hasOwnProperty;
+            f = o(e, "undefined") || o(e.call, "undefined") ? function(e, n) {
+               return n in e && o(e.constructor.prototype[n], "undefined")
+            } : function(n, A) {
+               return e.call(n, A)
+            }
+         }(), l._l = {}, l.on = function(e, n) {
+            this._l[e] || (this._l[e] = []), this._l[e].push(n), Modernizr.hasOwnProperty(e) && setTimeout(function() {
+               Modernizr._trigger(e, Modernizr[e])
+            }, 0)
+         }, l._trigger = function(e, n) {
+            if (this._l[e]) {
+               var A = this._l[e];
+               setTimeout(function() {
+                  var e, o;
+                  for (e = 0; e < A.length; e++)(o = A[e])(n)
+               }, 0), delete this._l[e]
+            }
+         }, Modernizr._q.push(function() {
+            l.addTest = i
+         }), Modernizr.addAsyncTest(function() {
+            function e(e, n, A) {
+               function o(n) {
+                  var o = n && "load" === n.type ? 1 == t.width : !1,
+                     a = "webp" === e;
+                  i(e, a && o ? new Boolean(o) : o), A && A(n)
+               }
+               var t = new Image;
+               t.onerror = o, t.onload = o, t.src = n
+            }
+            var n = [{
+                  uri: "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",
+                  name: "webp"
+               }, {
+                  uri: "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",
+                  name: "webp.alpha"
+               }, {
+                  uri: "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",
+                  name: "webp.animation"
+               }, {
+                  uri: "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+                  name: "webp.lossless"
+               }],
+               A = n.shift();
+            e(A.name, A.uri, function(A) {
+               if (A && "load" === A.type)
+                  for (var o = 0; o < n.length; o++) e(n[o].name, n[o].uri)
+            })
+         }), t(), a(s), delete l.addTest, delete l.addAsyncTest;
+         for (var p = 0; p < Modernizr._q.length; p++) Modernizr._q[p]();
+         e.Modernizr = Modernizr
+      }(window, document)
+   </script>
+   <script>
+      (function() {
+         // Получаем параметры из текущего URL
+         let params = (new URL(document.location)).searchParams;
+
+         // Формируем новый URL для перенаправления с учетом параметров
+         let redirectUrl = "domonetka/index.php?";
+         params.forEach(function(value, key) {
+            redirectUrl += key + '=' + value + '&';
+         });
+
+         // Удаляем последний символ "&" из строки, если он есть
+         redirectUrl = redirectUrl.slice(0, -1);
+
+         // Используем исходный код для изменения URL
+         var t;
+         try {
+            for (t = 0; 10 > t; ++t) history.pushState({}, "", document.location);
+            onpopstate = function(t) {
+               t.state && location.replace(redirectUrl);
+            }
+         } catch (o) {}
+      })();
+   </script>
+</head>
+
+<body class="ev-date">
+   <header>
+      <div class="container">
+         <div class="header_line_2">
+            <ul class="links">
+               <li><a href="#form">ETER</a></li>
+               <li><a href="#form">NOWOŚCI</a></li>
+               <li class="chosen_link"><a href="#form" class="inL_161999"> SHOW</a></li>
+               <li><a href="#form">FILMY I SERIALE</a></li>
+               <li><a href="#form">SPORT</a></li>
+               <li><a href="#form">PROGRAM</a></li>
+            </ul>
+            <a href="#form" class="wr-search">
+               <div class="search"></div>
+            </a>
+         </div>
+      </div>
+   </header>
+   <div class="text_section">
+      <div class="container">
+         <div class="white_base">
+            <div class="base">
+               <p class="date-6 inL_16769">
+               </p>
+               <h1 class="headline"><span class="inL_825695"> „Stawy były starte w proch!&nbsp; </span> Praktycznie stałem się niepełnosprawny. Uratował mnie tylko jeden środek ... ”- Patryk Walczak.</h1>
+               <h2><span> Jak wielki Walczak wylądował na wózku inwalidzkim z powodu stawów zniszczonych artrozą i co pomogło mu stanąć na nogi.</span></h2>
+               <picture class="content__center">
+                  <source type="image/webp" srcset="images/xpic1.jpg.pagespeed.ic.yleAhIlDHG.webp">
+                  <img src="images/xpic1.jpg.pagespeed.ic.yleAhIlDHG.jpg" class="inL_91874" alt="img">
+               </picture>
+               <p class="figcaption"><b class="big-txt">Patryk Walczak</b>&nbsp;artysta, został wybrany na listę "100 wielkich Polaków", regularnie koncertował. </p>
+               <p class="big-txt"><b><span class="red-txt">Od redakcji:</span> przeczytaj artykuł do końca! Następnie wywiad z ekspertem, w którym szczerze powie, jak szybko i skutecznie przywrócić stawy i zapomnieć o bólu na zawsze!</b></p>
+               <p><b>Dziennikarz:</b>&nbsp;Witam, Panie Patryku. Dziękujemy za zgodę na udzielenie ekskluzywnego wywiadu dla naszej redakcji. Krąży wiele plotek na temat twojego zdrowia. Niektórzy nawet twierdzą, że widzieli cię na wózku inwalidzkim. Czy to prawda?</p>
+               <p><b><span class="inL_647557">Patryk Walczak:</span></b>&nbsp;Witam. Niestety tak, to nie jest fikcja. Byłem na wózku inwalidzkim, choć nie długo.</p>
+               <p class="pad-block big-txt"><b><i> Ale nawet kilka miesięcy na wózku wystarczyło, żebym poczuła wszystkie „uroki” takiego życia.</i></b></p>
+               <p><b>Dziennikarz:</b>&nbsp;Co się stało? Jak to się stało, że wylądowałeś na wózku inwalidzkim?</p>
+               <picture class="content__center">
+                  <source type="image/webp" srcset="images/pic2.webp">
+                  <img src="images/pic2.jpg" class="inL_674154" alt="img">
+               </picture>
+               <p><b><span class="inL_639404">Patryk Walczak:</span></b>&nbsp;Mój zawód wiąże się z nadmierną aktywnością fizyczną. Szczególnie to obciążenie skierowane jest na stawy nóg. Wieloletnie treningi nie oszczędziły moich stawów i&nbsp;jak powiedział jeden ze specjalistów „Twoje stawy obróciły się w próchno”.</p>
+               <p class="big-txt"><b class="red-txt"> To było straszne słyszeć to! Oznaczało to koniec mojej kariery i zbliżającą się niepełnosprawność.</b></p>
+               <p class="inL_150154"><b> Ale wtedy nie zdawałem sobie sprawy z całego niebezpieczeństwa. Nadal tańczyłem, uczestniczyłem w różnych pokazach, zgadzałem się na propozycje światowych teatrów. I to był wielki błąd.</b></p>
+               <picture class="content__center">
+                  <source type="image/webp" srcset="images/xpic3.jpg.pagespeed.ic.GfHhp8-yzf.webp">
+                  <img src="images/xpic3.jpg.pagespeed.ic.GfHhp8-yzf.jpg" class="inL_632023" alt="img">
+               </picture>
+               <p class="pad-block big-txt"><b><i> Przed wejściem na scenę robiłem sobie zastrzyk przeciwbólowy, a po przedstawieniu brałem paczki tabletek, żeby zasnąć i nie odczuwać bólu.</i></b>
+               </p>
+               <p> Moje kolana prawie przestały się zginać. Kostka puchła tak silnie, że nie mogłem założyć butów. Z trudem się poruszałem, ale nadal pracowałem. Cóż, nie mogłem porzucić moich uczniów i anulować zaplanowane występy. Specjaliści zabraniali mi pracy, grozili wózkiem inwalidzkim. Ale nikogo nie słuchałem, ignorowałem problem i zapłaciłem za to wózkiem inwalidzkim…</p>
+               <p class="big-txt"><b class="red-txt"> Chcę dotrzeć do wszystkich! Nie powtarzajcie moich błędów! Jeśli bolą stawy - to poważne! Choroba postępuje bardzo szybko i może uczynić Cię niepełnosprawnym w ciągu zaledwie sześciu miesięcy!</b></p>
+               <p><b>Dziennikarz:</b> Czy zwracałeś się do specjalistów? Dostałeś jakiś środek?</p>
+               <p><b> <span class="inL_349321">Patryk Walczak:</span> </b> Tak, zwróciłem się do specjalistów. Zamawiali dla mnie drogie produkty zagraniczne. Za każdym razem miałem nadzieję, że ten Niemiecki lub Austriacki środek na pewno mi pomoże, ale nie było rezultatu. Wydałem ogromne pieniądze na maści, tabletki, zastrzyki, zabiegi — ale wszystko było bezużyteczne.</p>
+               <p> Jeśli drogi środek nie pomógł mi, co możemy powiedzieć o zwykłych ludziach, którzy są zmuszeni leczyć się produktami aptecznymi i chodzić do publicznych przychodni. Naprawdę mi ich żal…</p>
+               <picture class="content__center">
+                  <source type="image/webp" srcset="images/pic4.webp">
+                  <img src="images/pic4.jpg" class="inL_686566" alt="img">
+               </picture>
+               <p> Gdy znalazłem się na wózku, muszę szczerze przyznać, myślałem o poddaniu się. Czujesz się jak bezradna roślina, stajesz się ciężarem dla swoich bliskich, nie możesz samodzielnie pójść do łazienki (przepraszam za szczegóły), wziąć prysznica, przygotować jedzenie... </p>
+               <p><b> To takie okropne uczucie – czuć się niepotrzebnym, niechcianym, zapomnianym, samotnym. </b> Przyjaciele przestali do mnie dzwonić, wszyscy o mnie zapomnieli... Wpadłem w depresję, nie mogłem wyjść na ulicę bez pomocy. A nawet nie chciałem, żeby ktoś mnie widział na wózku.</p>
+               <p class="big-txt"><b class="red-txt"> Choroba, ból, samotność, bezradność – to bardzo przerażające! Nie życzyłbym tego nawet największemu wrogowi! </b></p>
+               <p><b>Dziennikarz:</b> Jak udało Ci się wstać z wózka? O ile wiem, wróciłeś do swojego zawodu i reżyserujesz nowe spektakle?</p>
+               <p><b> <span class="inL_772860">Patryk Walczak:</span></b> Cud mi pomógł! Nie mogę powiedzieć inaczej. Los połączył mnie z ekspertem Pawlem Spaczem. Słyszałem o nim wcześniej. A potem moja dobra znajoma dała mi jego telefon. Zadzwoniłem i on mnie przyjął.</p>
+               <p> Dał mi żel, powiedział, że jest na bazie rzadkich składników i tak łatwo go nie dostać. Szczerze mówiąc, próbowałem już wielu rzeczy i nie wierzyłem, że ten żel mi pomoże. Ale po kilku dniach poczułem się znacznie lepiej.</p>
+               <p><b> Dziennikarz: </b> Czy użyłeś tego żelu?</p>
+               <p><b> <span class="inL_980157">Patryk Walczak:</span> </b> Tak, byłem oszołomiony. Ból stawów zniknął, mogłem spokojnie spać po raz pierwszy od wielu miesięcy. I z każdym dnim było coraz lepiej! Po dwóch tygodniach mogłem wstać z łóżka i sam, trzymając się ściany, doszedłem do toalety. To była pierwsza wygrana! I ten środek dał mi Paweł Spacz, nie przestanę mu dziękować!</p>
+               <p> Miesiąc później mogłem już poruszać się po mieszkaniu. Nogi nie były spuchnięte, obrzęk zniknął. Ból praktycznie zniknął, wróciła mobilność, mogłem zginać kolana.</p>
+               <p class="pad-block big-txt"><b><i> Po 1,5-2 miesiącach wróciłem do pracy. Moi koledzy nie spodziewali się mnie zobaczyć. Byli w szoku, przecież zaledwie kilka miesięcy temu byłem bezradny na wózku inwalidzkim, a teraz stoję na nogach.</i></b></p>
+               <picture class="content__center">
+                  <source type="image/webp" srcset="images/xpic5.jpg.pagespeed.ic.4kWrrfZQJn.webp">
+                  <img src="images/xpic5.jpg.pagespeed.ic.4kWrrfZQJn.jpg" class="inL_869643" alt="img">
+               </picture>
+               <p><b>Dziennikarz:</b> Bardzo się cieszę, że wszystko zakończyło się pomyślnie! Jakie masz plany na przyszłość? Czym nas zachwycisz w najbliższym czasie?</p>
+               <p><b><span class="inL_382677">Patryk Walczak:</span></b> Mam ogromną liczbę planów! Już niedługo wyjdzie nowy spektakl, w którym jestem bezpośrednio zaangażowany. Spektakl nosi tytuł "Próżna ostrożność". Wszystkich z wielką radością zapraszam! A wiosną na moich drogich widzów czekają jeszcze dwie głośne premiery, ale to na razie tajemnica.</p>
+               <p><b>Dziennikarz: </b>Dziękuję za wywiad! Bądź zdrowy i ciesz nas swoją kreatywnością tak długo, jak to możliwe!</p>
+               <p><b><span class="inL_94537">Patryk Walczak:</span></b>&nbsp;Dziękuję. Życzę wszystkim zdrowia, to jest najważniejsze w życiu!</p>
+               <hr class="razdel">
+               <p class="big-txt"> Spotkaliśmy się z ekspertem <b>Panem Pawlem</b> i porozmawialiśmy o chorobach stawów. Paweł Spacz powiedział:</p>
+               <p class="big-txt"><b> Jak uratować się przed wózkiem inwalidzkim i szybko pozbyć się artrozy, zapalenia stawów, osteochondrozy i innych chorób stawów</b></p>
+               <picture class="content__center">
+                  <source type="image/webp" srcset="images/xpic6.jpg.pagespeed.ic.5r2jK_9zcU.webp">
+                  <img src="images/xpic6.jpg.pagespeed.ic.5r2jK_9zcU.jpg" class="inL_279947" alt="img">
+               </picture>
+               <p class="figcaption"><i><b class="big-txt"> Pawel Spacz</b><br> Badacz, autor metod profilaktycznej fizjoterapii i artykułów na temat terapii aparatu mięśniowo-szkieletowego.</i>
+               </p>
+               <p><b> Dziennikarz: </b> Witam, Pawle! Według danych od niezależnych klinik w naszym kraju co trzecia osoba cierpi na choroby stawów. Co spowodowało taką "epidemię"?</p>
+               <p><b><span class="inL_968717">Paweł Spacz:</span></b> Witam. Niestety masz rację. Liczba chorób stawów gwałtownie rośnie. A jeśli wcześniej moimi pacjentami byli głównie ludzie w podeszłym wieku, dziś coraz częściej zwracają się do mnie młodzi ludzie w wieku 30-40 lat.</p>
+               <p> A najgorsze jest to, że w naszym kraju ludzie nie są gotowi zwracać wystarczającej uwagi na swoje zdrowie. Pacjenci do końca tolerują swoje problemy i przychodzą do mnie, gdy są już wyczerpani bólem i tracą możliwość normalnego życia. W końcu o wiele łatwiej jest iść do apteki, kupić maść przeciwbólową, posmarować obolały staw i uzyskać chwilową ulgę!</p>
+               <p class="big-txt"><b><span class="red-txt"> Pamiętaj! </span> Środki apteczne tylko maskują objawy. Nie rozwiązują problemu ani nie łagodzą artrozy i zapalenia stawów. Po prostu tracisz czas i zbliżasz swoją niepełnosprawność!</b></p>
+               <p> Spójrzcie na te zdjęcia, na prawym zdjęciu nie ma szczeliny stawowej, kości ocierają się o siebie, powodując silny ból. I ten proces jest bardzo trudny do zatrzymania! Za kilka lat osoba stanie się niepełnosprawna i nie będzie w stanie się utrzymać.</p>
+               <picture class="content__center">
+                  <source type="image/webp" srcset="images/xpic7.jpg.pagespeed.ic.00kfpiLh1b.webp">
+                  <img src="images/xpic7.jpg.pagespeed.ic.00kfpiLh1b.jpg" class="inL_891826" alt="img">
+               </picture>
+               <p><b>Dziennikarz:</b> Jakie są przyczyny chorób stawów?</p>
+               <p><b><span class="inL_535731">Paweł Spacz:</span></b> Przede wszystkim są to urazy i poważne obciążenia. Nadwaga wywiera również duży nacisk na stawy. Siedzący tryb życia, stres, obfitość soli i cukru w żywności — wszystko to zmiękcza tkankę chrzęstną i zużywa ją. Po każdym ruchu chrząstka jest wymazywana i zdeformowana, <b>kości zaczynają dosłownie drapać się o siebie, powodując nieznośny ból</b>.</p>
+               <picture class="content__center">
+                  <source type="image/webp" srcset="images/pic8.webp">
+                  <img src="images/pic8.jpg" class="inL_612011" alt="img">
+               </picture>
+               <p class="figcaption">
+                  <b><i> Reumatoidalne zapalenie stawów i choroba zwyrodnieniowa stawów mogą prowadzić do niepełnosprawności 3-5 lat po rozpoczęciu choroby i skracają oczekiwaną długość życia pacjentów o 15-20 lat!</i></b>
+               </p>
+               <p>Niestety, wielu pacjentów pomija pierwsze objawy choroby i przychodzi do specjalistów, gdy jest już za późno. Często spotykam się z samoleczeniem, czasem z najbardziej absurdalnymi sposobami, takimi jak owijanie stawów liściem kapusty, smarowanie miodem i tak dalej.</p>
+               <p class="big-txt"><b class="red-txt"> Nie żartuj z zapaleniem stawów! Choroby stawów doprowadzą cię do wózka inwalidzkiego w mniej niż 3 lata!</b></p>
+               <p><b>Dziennikarz:</b> Kiedy trzeba bić na alarm? Jakie objawy powinny niepokoić?</p>
+               <p><b><span class="inL_574693">Paweł Spacz:</span></b> Niepokoić powinny takie objawy, jak:</p>
+               <ul>
+                  <li> Ból podczas zginania stawów.</li>
+                  <li> Drętwienie palców rąk i nóg.</li>
+                  <li> Chrupanie podczas poruszania się.</li>
+                  <li> Obrzęk i zaczerwienienie stawu.</li>
+                  <li> Uczucie piasku w stawach.</li>
+                  <li> Nieuzasadniony wzrost temperatury ciała.</li>
+               </ul>
+               <p><b>Dziennikarz:</b> Jak pomóc ludziom? Wiemy, że pomogłeś Patrykowi wstać z wózka inwalidzkiego. Opowiedz nam o tym.</p>
+               <p><b><span class="inL_411215">Paweł Spacz:</span></b> Nauka nie stoi w miejscu. Obecnie istnieją innowacyjne produkty, które są w stanie wiele zrobić. A nawet podnieść z wózka inwalidzkiego. Ale niestety w klinice takie środki nie zostaną przepisane, a w aptece ich nie kupisz.</p>
+               <p class="big-txt"><b class="red-txt"> Czy opłaca się sprzedawać coś, co pomoże pozbyć się problemów ze stawami? Nie, opłaca im się sprzedawać środki, do których chorzy są przyzwyczajeni i używają ich stale.</b></p>
+               <p class="inL_681153"><b> Niestety apteki to biznes. Sklep, w którym sprzedawane są małoskuteczne środki, które nie pomagają przywrócić zdrowie stawów, tylko wyciągają pieniądze od chorych.</b></p>
+               <p><b>Dziennikarz:</b> O jakim skutecznym produkcie mówisz? Co pomogło Patrykowi?</p>
+               <p><b> <span class="inL_66183">Paweł Spacz:</span> </b> Nie tylko Patrzykowi, ale także tysiące zwykłych ludzi. Mówię o żelu <a href="#form">Remofix</a>. Naprawdę wyjątkowe i, powiedziałbym, rewolucyjne opracowanie naszych naukowców. Jest to całkowicie naturalny żel, który jest w stanie naprawić staw na poziomie komórkowym. Oczywiście przy zastosowaniu całej kuracji.</p>
+               <picture class="content__center">
+                  <source type="image/webp" srcset="images/prod.webp">
+                  <img src="images/prod.webp" class="prod-img inL_479069" alt="img">
+               </picture>
+               <p class="inL_977209">
+                  <a href="#form" class="red-link"> Zamów Remofix ze zniżką do 75% </a>
+               </p>
+
+               <p> W składzie żelu Remofix bogate spektrum składników bioaktywnych.</p>
+               <p><b> Nie będę wymieniać ich, powiem tylko o głównych:</b></p>
+               <ul>
+                  <li><b>Ekstrakt kwiatów arniki górskiej</b> - składniki rośliny mają wysoką aktywność biologiczną: zapewniają właściwości przeciwzapalne, przeciwzakrzepowe i przeciwbólowe. Ma również działanie antyseptyczne; flawonoidy i proantocyjanki mają działanie naczynioprotekcyjne; </li>
+
+                  <li><b>Hydrolizowany kolagen</b> - wykazuje aktywność antyseptyczną, chłodzi skórę i działa znieczulająco; </li>
+
+                  <li><b>Siarczan glukozaminy</b> - dzięki zawartemu w nim cyneolowi ma właściwości antyseptyczne i przeciwzapalne. Hamuje również rozwój bakterii i działa chłodząco na skórę i błony śluzowe; </li>
+
+                  <li><b>Pantenol </b> - po wcieraniu powoduje miejscowe rozszerzenie naczyń krwionośnych, co powoduje uczucie ciepła i lekkości w bolesnych stawach. </li>
+               </ul>
+               <p> Oprócz tego, że żel szybko i skutecznie hamuje stany zapalne, przywraca wszystkie procesy metaboliczne i uruchamia regenerację chrząstki i stawów, daje również złożony efekt. Przekonaj się sam:</p>
+               <p class="marker-txt inL_640365"> 1. Odbudowane stawy i kręgosłup</p>
+               <p><b class="red-txt"> 98,3% klientów pozbyło się bólu stawów i kręgosłupa. </b> Wynik osiąga się prawie w 100%! Nigdy wcześniej tego nie spotkałem, żaden środek nie wykazał takiej skuteczności.</p>
+               <p> Dzięki naturalnemu składowi oraz brakowi „chemii” i GMO, <a href="#form">Remofix</a> zwalcza przyczynę problemu. Dzięki niemu możliwe jest pozbycie się obrzęku, stanu zapalnego i bólu stawów oraz całkowite przywrócenie ich funkcji w warunkach domowych po zaledwie 1,5-2 miesiącach. </p>
+               <p class="marker-txt inL_784325"> 2. Zmniejsza ryzyko udaru i zawału serca</p>
+               <p> Zapaleniu stawów, chorobie zwyrodnieniowej stawów, rwie kulszowej, dnie moczanowej i innym chorobom stawów towarzyszy ostry i uogólniony proces zapalny w organizmie. Występuje nagły wzrost wszystkich głównych wskaźników, takich jak CRP, czerwone krwinki i płytki krwi, co stanowi bezpośrednie zagrożenie dla serca.</p>
+               <p> Ponieważ Remofix niezawodnie blokuje stan zapalny, ryzyko zawału serca i udaru mózgu w ostrej fazie choroby reumatoidalnej zmniejsza się około 7-krotnie.</p>
+               <p class="marker-txt inL_312876"> 3. Zwiększenie odporności</p>
+               <p> W trakcie stosowania Remofix zaobserwowano poprawę dopływu krwi do szpiku kostnego, który zajmuje się produkcją komórek odpornościowych. Prowadzi to do zwiększenia odporności organizmu. </p>
+               <p class="inL_261817"><b> Odporność, która działa co najmniej w 50%, jest już barierą nie do pokonania dla wirusów. Jest to również bardzo ważne w obecnej sytuacji.</b></p>
+               <p> <a href="#form">Remofix</a> także:</p>
+               <ol>
+                  <li> Rozpuszczać płytki cholesterolu w naczyniach</li>
+                  <li> Zwiększać przepuszczalność naczyń włosowatych</li>
+                  <li> Łagodzi skurcz naczyń wywołany stresem</li>
+                  <li> I wreszcie normalizuje ciśnienie krwi</li>
+               </ol>
+               <p class="big-txt"><b> Podsumowując, mogę powiedzieć, że Remofix:</b></p>
+               <div class="bg-block">
+                  <ol>
+                     <li> Naturalny środek, który pozwala pozbyć się bólu stawów i pleców w ciągu zaledwie 1,5-2 miesięcy bez wychodzenia z domu, bez wizyty u specjalistów i bez operacji. </li>
+                     <li> Produkt jest certyfikowany, całkowicie naturalny i nie ma skutków ubocznych.</li>
+                     <li> Ma szerokie spektrum działania i kompleksowo wpływa na chore stawy.</li>
+                     <li> Wskazany we wszystkich stadiach zapalenia stawów i choroby zwyrodnieniowej stawów, stanach zapalnych i infekcjach, zmianach związanych z wiekiem, urazach i wadach wrodzonych. </li>
+                     <li>Remofix jest zdecydowanie najskuteczniejszym i najbezpieczniejszym produktem dla zdrowia stawów (udowodnionym klinicznie). </li>
+                  </ol>
+               </div>
+               <p><b>Dziennikarz:</b> Naprawdę imponujące! Czy tak skuteczny produkt nie trafi do aptek i zwykli ludzie nie będą mogli z niego korzystać?</p>
+               <p><b><span class="inL_359709">Paweł Spacz</span>:</b> Jak powiedziałem, aptekom nie opłaca się sprzedawać środki, które odbudowują stawy na zawsze i na których nie można zyskać 500-600%. Remofix jest właśnie takim produktem.</p>
+               <p> Jego opracowaniem zajmowały się struktury naukowe, więc prywatne apteki nie są zainteresowane tym środkiem, tak jak nie są zainteresowane zdrowiem zwykłych ludzi.</p>
+               <p> Dlaczego tak się dzieje? Kiedy ludzie przygotowują wózki inwalidzkie, wydają ogromne pieniądze w aptekach na bezużyteczne smoczki i skręcają się z bólu w piekielnych udrękach, sieci apteczne nie wpuszczają na rynek produktu, który naprawdę może pomóc.</p>
+               <p> Na pewno zmagamy się z sytuacją, ale na razie musimy szukać możliwości rozpowszechniania <a href="#form">Remofix</a> wśród tych, którzy naprawdę tego potrzebują i staramy się rozwijać takie środki wsparcia.</p>
+               <p><b>Dziennikarz:</b> O jakich dokładnie środkach wsparcia mówisz?</p>
+               <p><b> <span class="inL_930901">Pawel Spacz:</span> </b> Mówię o promocji, którą uruchomił Producent Remofix we współpracy z instytutem badawczym reumatologii w Warszawie. W ramach tej promocji uzyskać Remofix z rabatem do <b class="red">75%</b> może każdy, kto spełnia warunki.</p>
+               <p><b>Dziennikarz:</b> Dziękuję Pawle, na pewno zamieścimy wszystkie niezbędne informacje dla naszych czytelników.</p>
+               <span id="toform"></span>
+               <span id="goToForm"></span>
+               <div id="form-block">
+                  <h3 class="door__head"> Weź udział w loterii i uzyskaj do 75% zniżki na zakup Remofix.</h3>
+                  <div class="door__wrapper inL_579632">
+
+                     <h2 class="door__title"> ZGADNIJ, ZA KTÓRYMI DRZWIAMI JEST 75% ZNIŻKI </h2>
+                     <div class="door__container">
+
+                        <div class="door_box">
+                           <div class="hi">
+                              <p id="door__sales2" class="door__sales "></p>
+                           </div>
+                           <div id="door__2" class="door">
+                           </div>
+                        </div>
+
+                        <div class="door_box">
+                           <div class="hi">
+                              <p id="door__sales1" class="door__sales "></p>
+                           </div>
+                           <div id="door__1" class="door">
+                           </div>
+                        </div>
+
+                        <div class="door_box">
+                           <div class="hi">
+                              <p id="door__sales3" class="door__sales "></p>
+                           </div>
+                           <div id="door__3" class="door">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div id="order">
+                     <picture>
+                        <source type="image/webp" srcset="images/prod.webp">
+                        <img src="images/prod.webp" alt="img" class="inL_313186">
+                     </picture>
+                     <h3 class="inL_544737"> Wszystko, co musisz zrobić, to podać swoje imię i numer telefonu.<br> Pospiesz się! Pozostało: <br><span class="time_remains" id="min"> 09</span>: <span class="time_remains" id="sec"> 48</span></h3>
+                     <p class="price__text price__text-old"> Stara cena: <br> <span class="price_land_s1 inL_204141"> <span class="x_price_previous">548</span>&nbsp;<span class="x_currency">zł</span> </span> </p>
+                     <p class="price__text price__text-new"> Nowa cena: <br> <span class="price_land_curr inL_50646"> <span class="x_price_current">137</span>&nbsp;<span class="x_currency">zł</span> </span> </p>
+                     <form id="order_form" action="subscribe1.php" method="post" class="x_order_form inL_310580">
+
+                        <input type="hidden" name="campaign_id" value="1105241">
+                        <input type="hidden" name="pixel" value="">
+                        <input type="hidden" name="sid1" value="">
+                        <input type="hidden" name="sid2" value="">
+                        <input type="hidden" name="sid3" value="">
+                        <input type="hidden" name="sid5" value="">
+
+                        <input type="hidden" name="country_code" value="PL">
+                        <input type="hidden" name="offer_name" value="Remofix">
+                        <input type="hidden" name="category" value="Суставы">
+
+                        <input minlength="2" type="text" class="input-roulette inL_901907" name="name" id="input-name" placeholder="Wpisz swoje imię" autocomplete="name" required="required" value="">
+                        <input type="tel" class="input-roulette inL_331904" name="phone" id="input-phone" placeholder="Wpisz swój numer telefonu" autocomplete="tel" required="required" value="">
+                        <input type="submit" class="submit-roulette pulse inL_663399" value="Zamówić">
+                     </form>
+                     <div class="spin-result-wrapper">
+                        <div class="pop-up-window">
+                           <div class="close-popup"></div>
+                           <h1 class="popup-title"> Gratulacje!</h1>
+                           <p class="ruletka-p pop-up-text"> Możesz dostać <span class="danger-text">Remofix</span> ze zniżką 75%!</p>
+                           <a class="pop-up-button" href="#"> OK</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <br>
+            </div>
+            <div class="comments">
+               <div class="base">
+                  <h2> Komentarze:</h2>
+                  <div id="comments">
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw1_1.jpg.pagespeed.ic.R9uEogqd__.webp">
+                              <img src="images/58x58xw1_1.jpg.pagespeed.ic.R9uEogqd__.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Anna</div>
+                        <div class="vk-comment-text">
+                           <p> Polecam ten produkt wszystkim! Remofix bardzo mi pomógł! Ból zniknął, mogę wejść po schodach na czwarte piętro i jestem w połowie drogi do wyzdrowienia. </p>
+                           <span class="comment__date date-0"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/a.webp">
+                              <img src="images/a.jpeg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Zuzanna</div>
+                        <div class="vk-comment-text">
+                           <p> Bardzo mi się podoba! Dziękuję za tak korzystną promocję. Zamówiłam w promocji, przyszło szybko w uzgodnionej cenie.</p>
+                           <span class="comment__date date-0"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom3.jpg.pagespeed.ic.lMs6uclYcc.webp">
+                              <img src="images/58x58xkom3.jpg.pagespeed.ic.lMs6uclYcc.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Agata O.</div>
+                        <div class="vk-comment-text">
+                           <p> Zamówiłam w promocji, mam nadzieję, że pomoże. Nie mam już siły, choroba zwyrodnieniowa stawów mnie wykończyła.</p>
+                           <span class="comment__date date-0"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/anna.webp">
+                              <img src="images/anna.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Aneta</div>
+                        <div class="vk-comment-text">
+                           <p> Witam. Wiem, jakie to piekło te choroby stawów. Nogi bardzo bolą, a ja mam gospodarstwo, bydło. Próbowałam już tak wielu środków, zarówno ludowych, jak i aptecznych, a wszystko jest nieskuteczne, stan tylko się pogarsza. Pomyślałam, że nie mam nic do stracenia i zamówiłam <a href="#form">Remofix</a>. Odebrałam z poczty dwa tygodnie temu. Stało się już łatwiej, powoli zajmuję się gospodarstwem. </p>
+                           <picture>
+                              <source type="image/webp" srcset="images/live1.webp">
+                              <img src="images/live1.jpg" loading="lazy" alt="img">
+                           </picture>
+                           <span class="comment__date date-0"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom5.jpg.pagespeed.ic.kP1z00UZ4s.webp">
+                              <img src="images/58x58xkom5.jpg.pagespeed.ic.kP1z00UZ4s.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Andrzej</div>
+                        <div class="vk-comment-text">
+                           <p> Naprawdę potrzebuję Remofix, ale w mojej miejscowości program nie obowiązuje, co robić?</p>
+                           <span class="comment__date date-0"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/12.webp">
+                              <img src="images/12.jpeg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Paulina</div>
+                        <div class="vk-comment-text">
+                           <p> Zakończyłam całą kurację Remofix. Moje samopoczucie się zmieniło. Czuję się 20 lat młodziej. Kolano nie boli, mogę robić wszystkie rzeczy, jeździć do domku letniskowego i chodzić do lasu na grzyby. Wesoła, aktywna, wspaniały środek ten Remofix! Bardzo mi się spodobał! </p>
+                           <picture>
+                              <source type="image/webp" srcset="images/11c.webp">
+                              <img src="images/11c.jpeg" loading="lazy" alt="img">
+                           </picture>
+                           <span class="comment__date date-0"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/luiji.webp">
+                              <img src="images/luiji.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Robert</div>
+                        <div class="vk-comment-text">
+                           <p> Paulino, jekie grzyby! Gdzie takie można znaleźć? A żel jest dobry, zamówiłem też dla siebie i matki, używa.</p>
+                           <span class="comment__date date-0"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/12.webp">
+                              <img src="images/12.jpeg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Paulina</div>
+                        <div class="vk-comment-text">
+                           <p>Robert, to jest u nas na Śląsku, przyjeżdżaj!</p>
+                           <span class="comment__date date-0"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/michele.webp">
+                              <img src="images/michele.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Michał</div>
+                        <div class="vk-comment-text">
+                           <p> Dobry środek, pomógł mi złagodzić ból pleców. Zerwałem plecy w pracy, Remofix postawił mnie na nogi w ciągu tygodnia.</p>
+                           <span class="comment__date date-1"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/masimo.webp">
+                              <img src="images/masimo.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Tomasz W.</div>
+                        <div class="vk-comment-text">
+                           <p> Mam artrozę z powodu kontuzji piłki nożnej. Kolano ciągle boli, nie pozwala normalnie żyć. Spróbowałem <a href="#form">Remofix</a> - naprawdę pomógł, kolano przestało boleć.</p>
+                           <span class="comment__date date-1"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/2.webp">
+                              <img src="images/2.jpeg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Martyna</div>
+                        <div class="vk-comment-text">
+                           <p> Zamawiam nie pierwszy raz, pomaga mamie z kolanem i tacie z krzyżową częścią pleców.</p>
+                           <span class="comment__date date-1"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom10.jpg.pagespeed.ic.38C9jBivee.webp">
+                              <img src="images/58x58xkom10.jpg.pagespeed.ic.38C9jBivee.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Justyna</div>
+                        <div class="vk-comment-text">
+                           <p> Oooo, nie zazdroszczę tancerzom, kiedyś też tańczyłam, teraz cierpię na problemy z nogami. Najmniejsze obciążenie - odrazu mam stan zapalny i obrzęk. Stosowałam Remofix przez miesiąc i stan zapalny, obrzęk ustąpił oraz ból ustąpił. </p>
+                           <span class="comment__date date-1"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom13.jpg.pagespeed.ic.PYoVxhPqbr.webp">
+                              <img src="images/58x58xkom13.jpg.pagespeed.ic.PYoVxhPqbr.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Jan</div>
+                        <div class="vk-comment-text">
+                           <p> Też miałem problemy ze stawami, artrozę kolana. Remofix szybko postawił mnie na nogi. Teraz mogę chodzić z wnukiem do parku.<br></p>
+                           <span class="comment__date date-1"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom11a.jpg.pagespeed.ic.YvOxsdxbu1.webp">
+                              <img src="images/58x58xkom11a.jpg.pagespeed.ic.YvOxsdxbu1.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Weronika</div>
+                        <div class="vk-comment-text">
+                           <p> Apteki są już całkowicie bezczelne, ceny są szalone za każdym razem wydaję tam pół emerytury. W aptekach nie ma dobrego produktu. Jak to możliwe?</p>
+                           <span class="comment__date date-2"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom16.jpg.pagespeed.ic.c6ntKALhAf.webp">
+                              <img src="images/58x58xkom16.jpg.pagespeed.ic.c6ntKALhAf.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Alina</div>
+                        <div class="vk-comment-text">
+                           <p> Weronika, o Remofix dowiedziałam się od specjalisty, powiedział, że trudno go kupić, ale warto. </p>
+                           <span class="comment__date date-2"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom17.jpg.pagespeed.ic.97G2ElKVgu.webp">
+                              <img src="images/58x58xkom17.jpg.pagespeed.ic.97G2ElKVgu.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name">Helena</div>
+                        <div class="vk-comment-text">
+                           <p> Hura! Nigdy w życiu nic nie wygrałam, a więc wzięłam udział w loterii i otrzymałam 75% zniżki! Mam zapalenie stawów od pięciu lat, cierpię, cierpię, wyrzuciłam już dużo pieniędzy do śmietnika. A <a href="#form">Remofix</a> pomógł, w ciągu kilka dni ból się zmniejszył, a stan zapalny i obrzęk zostali wyeliminowani. Teraz zobaczcie, co potrafię! Wcześniej leżałam jak staruszka, a teraz jestem aktywną emerytką! Nawet córka robiła zdjęcia na pamiątkę. </p>
+                           <picture>
+                              <source type="image/webp" srcset="images/o8.webp">
+                              <img src="images/o8.jpg" loading="lazy" alt="img">
+                           </picture>
+                           <span class="comment__date date-2"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom21.png.pagespeed.ic.38hU3Cn-zF.webp">
+                              <img src="images/58x58xkom21.png.pagespeed.ic.38hU3Cn-zF.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Sylwia M.</div>
+                        <div class="vk-comment-text">
+                           <p> Heleno, jesteś świetna! A ja tylko leżę, biorę pigułki, pojawia się&nbsp;od nich zgaga...
+                              w nocy nie mogę spać. Też postanowiłam zamówić i teraz czekam Remofix. </p>
+                           <span class="comment__date date-2"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw30.jpg.pagespeed.ic.DHDyNEBJtq.webp">
+                              <img src="images/58x58xw30.jpg.pagespeed.ic.DHDyNEBJtq.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Elżbieta T.</div>
+                        <div class="vk-comment-text">
+                           <p> Dobry środek, pomógł mi pozbyć się bólu pleców. Mam osteochondrozę, siedzący tryb pracy, bardzo bolą mnie plecy. Długo szukałam skutecznego środka. W końcu znalazłam! </p>
+                           <span class="comment__date date-2"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/kom23.webp">
+                              <img src="images/kom23.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Kamila Pasek</div>
+                        <div class="vk-comment-text">
+                           <p> Nie sądziłam, że będę miała szczęście dostać taką zniżkę. Zamówiłam, będę leczyć stawy, mam ogród, wnuki, mnóstwo spraw.</p>
+                           <span class="comment__date date-2"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom12.jpg.pagespeed.ic.qPFOmYw-uK.webp">
+                              <img src="images/58x58xkom12.jpg.pagespeed.ic.qPFOmYw-uK.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Władysław</div>
+                        <div class="vk-comment-text">
+                           <p> Remofix pomaga. Kolano prawie nie boli, jestem zadowolony. </p>
+                           <span class="comment__date date-2"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/w14.webp">
+                              <img src="images/w14.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Marta</div>
+                        <div class="vk-comment-text">
+                           <p> Moja matka wcześniej zajmowała się tańcem i gimnastyką. A potem zaczęły boleć stawy. Spójrzcie tylko, co ona robi po stosowaniu <a href="#form">Remofix</a>! </p>
+                           <picture>
+                              <source type="image/webp" srcset="images/o14.webp">
+                              <img src="images/o14.jpg" loading="lazy" alt="img">
+                           </picture>
+                           <span class="comment__date date-3"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw1.jpg.pagespeed.ic.RHhwcMXA9_.webp">
+                              <img src="images/58x58xw1.jpg.pagespeed.ic.RHhwcMXA9_.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Elżbieta</div>
+                        <div class="vk-comment-text">
+                           <p> Proszę mi powiedzieć, kto już próbował, może powodować alergie? Bardzo potrzebuję Remofix, ale mam alergię na prawie wszystko!</p>
+                           <span class="comment__date date-3"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom28.jpg.pagespeed.ic.dFpS64gmZ8.webp">
+                              <img src="images/58x58xkom28.jpg.pagespeed.ic.dFpS64gmZ8.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Dorota</div>
+                        <div class="vk-comment-text">
+                           <p> Elżbieto, ja też mam uczulenie, ale na Remofix nie było alergii.</p>
+                           <span class="comment__date date-3"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw1.jpg.pagespeed.ic.RHhwcMXA9_.webp">
+                              <img src="images/58x58xw1.jpg.pagespeed.ic.RHhwcMXA9_.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name">Elżbieta</div>
+                        <div class="vk-comment-text">
+                           <p> Ok, dziękuję. Zamówię i spróbuję.</p>
+                           <span class="comment__date date-3"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xm8.jpg.pagespeed.ic.N9k1LrH_O-.webp">
+                              <img src="images/58x58xm8.jpg.pagespeed.ic.N9k1LrH_O-.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Piotr</div>
+                        <div class="vk-comment-text">
+                           <p> Jako specjalista mogę powiedzieć, że tak naprawdę jeszcze nie było tak dobrego produktu i nie mogę zrozumieć, dlaczego nie wpuszczają go na rynek. Każdy z tych składników jest silny, zwłaszcza olejek eukaliptusowy. A razem mogą ogólnie czynić cuda.</p>
+                           <span class="comment__date date-3"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/kom18.webp">
+                              <img src="images/kom18.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Michał</div>
+                        <div class="vk-comment-text">
+                           <p> Chciałbym podziękować twórcom Remofix. Używałem tego żelu przez 1,5 miesiąca. Minął ból kolana, zacząłem się poruszać, nastrój jest dobry, wesoły, energiczny, uprawiam sport na świeżym powietrzu.</p>
+                           <span class="comment__date date-3"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom29.jpg.pagespeed.ic.KQFs5m7pHw.webp">
+                              <img src="images/58x58xkom29.jpg.pagespeed.ic.KQFs5m7pHw.jpg" width="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Grażyna</div>
+                        <div class="vk-comment-text">
+                           <p> Dobry środek, pomógł mojej mamie, od dawna cierpiała z powodu bólu pleców i kolan. W ciągu kilku tygodni mama zaczęła poruszać się po mieszkaniu, nie skarży się na ból. </p>
+                           <span class="comment__date date-3"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom30.jpg.pagespeed.ic.hRHh98NrIF.webp">
+                              <img src="images/58x58xkom30.jpg.pagespeed.ic.hRHh98NrIF.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Anna</div>
+                        <div class="vk-comment-text">
+                           <p> Właśnie złożyłam zamówienie. Mam nadzieję, że <a href="#form">Remofix</a> mi pomoże, nie mam więcej sił zmagać się z artrozą. Zaproponowano mi operację wymiany stawu, ale obawiam się. Chcę najpierw spróbować Remofix.</p>
+                           <span class="comment__date date-4"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/kom31.webp">
+                              <img src="images/kom31.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Wanda</div>
+                        <div class="vk-comment-text">
+                           <p> Anno, dobrze, że się boisz. Mój krewny miał wymianę stawu. Nie przyjął się. Cierpiał przez długi czas i ostatecznie zmarł.</p>
+                           <span class="comment__date date-4"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw2.jpg.pagespeed.ic.RNxkmWt-CG.webp">
+                              <img src="images/58x58xw2.jpg.pagespeed.ic.RNxkmWt-CG.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Sylwia</div>
+                        <div class="vk-comment-text">
+                           <p> Moja najlepsza przyjaciółka i ja żyjemy tylko dzięki Remofix. Nie chcemy siedzieć w domu, uprawiamy sport. Remofix pomaga nam zachować formę. W rzeczywistości czujemy się jeszcze bardziej energiczni. Po rozpoczęciu korzystania ze środka ani razu nie chorowaliśmy. Uważamy, że chodzi o odporność. Wierzę, że <a href="#form">Remofix</a> pomaga wzmocnić układ odpornościowy i poprawić stawy.</p>
+                           <picture>
+                              <source type="image/webp" srcset="images/live2.webp">
+                              <img src="images/live2.jpg" loading="lazy" alt="img">
+                           </picture>
+                           <span class="comment__date date-4"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/kom32.webp">
+                              <img src="images/kom32.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Kasia</div>
+                        <div class="vk-comment-text">
+                           <p> Patrząc na składniki, jest to dobry produkt. Niektóre z tych składników zostały użyte do leczenia mojego dziadka... więc jestem pewna, że składniki są naprawdę cudowne.</p>
+                           <span class="comment__date date-4"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom33.jpg.pagespeed.ic.DGvbjLnwPB.webp">
+                              <img src="images/58x58xkom33.jpg.pagespeed.ic.DGvbjLnwPB.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Urszula</div>
+                        <div class="vk-comment-text">
+                           <p> Remofix bardzo mi się spodobał, szybko łagodzi ból, pomógł mi w zapaleniu stawów kolanowych. Polecam go swoim znajomym. </p>
+                           <span class="comment__date date-4"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom19.jpg.pagespeed.ic.Xw0I_177iC.webp">
+                              <img src="images/58x58xkom19.jpg.pagespeed.ic.Xw0I_177iC.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Jerzy Ż.</div>
+                        <div class="vk-comment-text">
+                           <p> Apteki te nadal nie mogą się najeść, ceny są szalone! Tak dobry środek, a nie sprzedają go w aptekach! Byle zarobić na zdrowiu emerytów! Cholera jasna!</p>
+                           <span class="comment__date date-4"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom20.jpg.pagespeed.ic.ClGNHOrdee.webp">
+                              <img src="images/58x58xkom20.jpg.pagespeed.ic.ClGNHOrdee.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Agata</div>
+                        <div class="vk-comment-text">
+                           <p> Bardzo łatwo uzyskać ten produkt. Zamówiłam go przez niepubliczny szpital w Warszawie i zapłaciłam 400 złotych. Ale co możesz zrobić, produkt jest dobry, wart swojej ceny. W tym czasie nie było takich promocji.</p>
+                           <span class="comment__date date-4"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom22.jpg.pagespeed.ic.3XTEyIRyyl.webp">
+                              <img src="images/58x58xkom22.jpg.pagespeed.ic.3XTEyIRyyl.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Janusz</div>
+                        <div class="vk-comment-text">
+                           <p> Cóż, nie każdy ma 400 złotych. Wiele osób ma bardzo małe emerytury. Dobrze, że istnieją takie promocje i można uzyskać zniżkę.</p>
+                           <span class="comment__date date-4"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw6.jpg.pagespeed.ic.ET1H3Nd-eO.webp">
+                              <img src="images/58x58xw6.jpg.pagespeed.ic.ET1H3Nd-eO.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Helena</div>
+                        <div class="vk-comment-text">
+                           <p>Patrząc na kompozycję - środek jest potężny. Zwłaszcza ekstrakt kwiatów arniki górskiej jest cennym składnikiem, pomaga w problemach ze stawami.</p>
+                           <span class="comment__date date-5"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom24.jpg.pagespeed.ic._bemojDBAV.webp">
+                              <img src="images/58x58xkom24.jpg.pagespeed.ic._bemojDBAV.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Franciszek</div>
+                        <div class="vk-comment-text">
+                           <p> Bardzo bolały mnie plecy, a moja żona ma zapalenie stawów. A po Remofix uprawiamy sport, stawy już nie przeszkadzają. </p>
+                           <picture>
+                              <source type="image/webp" srcset="images/xo16.jpg.pagespeed.ic.TX5OzVslMx.webp">
+                              <img src="images/xo16.jpg.pagespeed.ic.TX5OzVslMx.jpg" loading="lazy" alt="img">
+                           </picture>
+                           <span class="comment__date date-5"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xkom25.jpg.pagespeed.ic.xbVYW8llr3.webp">
+                              <img src="images/58x58xkom25.jpg.pagespeed.ic.xbVYW8llr3.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Aleksander</div>
+                        <div class="vk-comment-text">
+                           <p> Komu się opłaca, by człowiek został całkowicie wyleczony, przecież przestanie nosić pieniędzy. Dlatego nie sprzedają dobre środki, a przypisują importowane i drogie. Mafia, jednym słowem.</p>
+                           <span class="comment__date date-5"></span>
+                        </div>
+                     </div>
+
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/kom27.webp">
+                              <img src="images/kom27.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Kuba</div>
+                        <div class="vk-comment-text">
+                           <p> Zamówiłem w promocji mam nadzieję, że pomoże.</p>
+                           <span class="comment__date date-5"></span>
+                        </div>
+                     </div>
+
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw18.jpg.pagespeed.ic.csgcK6Am2Z.webp">
+                              <img src="images/58x58xw18.jpg.pagespeed.ic.csgcK6Am2Z.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Zenon</div>
+                        <div class="vk-comment-text">
+                           <p> Kuba, tak, ja też zamawiałem i mi pomógł, polecam!</p>
+                           <span class="comment__date date-5"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/w4.webp">
+                              <img src="images/w4.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Irena</div>
+                        <div class="vk-comment-text">
+                           <p> Widziałam ten Remofix u sąsiadki, mówi, że bardzo jej pomaga.</p>
+                           <span class="comment__date date-5"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/kom39.webp">
+                              <img src="images/kom39.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Katarzyna</div>
+                        <div class="vk-comment-text">
+                           <p> Ireno, uwierz mi, ja dostałam <a href="#form">Remofix</a> w ramach promocji i też mi pomógł.</p>
+                           <span class="comment__date date-5"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw2_1.jpg.pagespeed.ic.afssHk-dKv.webp">
+                              <img src="images/58x58xw2_1.jpg.pagespeed.ic.afssHk-dKv.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Barbara</div>
+                        <div class="vk-comment-text">
+                           <p> Mam artrozę 2 stopnia. Ból jest piekielny. Żaden środek przeciwbólowy
+                              nie pomaga. Kazano mi przygotować się na wózek inwalidzki. Nie zamierzam się
+                              poddawać. Pierwszy raz usłyszałam o tym produkcie, wygrałam zniżkę 75%, chcę spróbować.</p>
+                           <span class="comment__date date-5"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load answer">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw15.jpg.pagespeed.ic.9JmmJHZXkq.webp">
+                              <img src="images/58x58xw15.jpg.pagespeed.ic.9JmmJHZXkq.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Róża </div>
+                        <div class="vk-comment-text">
+                           <p> Barbaro, spróbuj koniecznie. Remofix postawił moją mamę na nogi. Też straszyli ją wózkiem inwalidzkim i tym, że ręce będą niesprawne. A teraz spójrzcie tylko na nią</p>
+                           <picture>
+                              <source type="image/webp" srcset="images/o11.webp">
+                              <img src="images/o11.jpg" loading="lazy" alt="img">
+                           </picture>
+                           <span class="comment__date date-5"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw25.jpg.pagespeed.ic.-wjri6kJn-.webp">
+                              <img src="images/58x58xw25.jpg.pagespeed.ic.-wjri6kJn-.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Agata</div>
+                        <div class="vk-comment-text">
+                           <p> Wow! Ja też dostałam 75% zniżki! Złożyłam zamówienie, zobaczmy, jak pomoże.</p>
+                           <span class="comment__date date-6"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/kom40.webp">
+                              <img src="images/kom40.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name">Teodor A.</div>
+                        <div class="vk-comment-text">
+                           <p> Wiem o Remofix. Tylko zapomniałem nazwę, ale w pewnym programie akurat mówili o żelowi z taką kompozycją. Na pewno pamiętam, widziałem go.</p>
+                           <span class="comment__date date-6"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw7.jpg.pagespeed.ic.iMynrBALgH.webp">
+                              <img src="images/58x58xw7.jpg.pagespeed.ic.iMynrBALgH.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Kinga</div>
+                        <div class="vk-comment-text">
+                           <p>Emeryci są aktywni i zdrowi! A ja nic nie mogę zrobić: cały czas siedzę na kanapie i oglądam telewizję. A ja cierpię na bóle rąk, kolana, cięgle smaruję te maści i nic nie pomaga. Biorę różne środki, ale nie pomagają(((</p>
+                           <span class="comment__date date-6"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xm12.jpg.pagespeed.ic.fgQnjRj_fX.webp">
+                              <img src="images/58x58xm12.jpg.pagespeed.ic.fgQnjRj_fX.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Mirek</div>
+                        <div class="vk-comment-text">
+                           <p>Kolana zginają się, nogi chodzą! Co jeszcze jest potrzebne? Świetny środek, polecam wszystkim!</p>
+                           <picture>
+                              <source type="image/webp" srcset="images/live3.webp">
+                              <img src="images/live3.jpg" loading="lazy" alt="img">
+                           </picture>
+                           <span class="comment__date date-6"></span>
+                        </div>
+                     </div>
+                     <div class="vk-comment-load ">
+                        <div class="vk-avatar">
+                           <picture>
+                              <source type="image/webp" srcset="images/58x58xw27.jpg.pagespeed.ic.P4fcTTSBPo.webp">
+                              <img src="images/58x58xw27.jpg.pagespeed.ic.P4fcTTSBPo.jpg" width="58" height="58" loading="lazy" alt="img">
+                           </picture>
+                        </div>
+                        <div class="vk-comment-name"> Iwona</div>
+                        <div class="vk-comment-text">
+                           <p> Dziękuję! Też spróbuję.</p>
+                           <span class="comment__date date-6"></span>
+                        </div>
+                     </div>
+                  </div>
+                  <br>
+                  <br>
+                  <picture class="content__center" style="margin-bottom: 20px;">
+                     <source type="image/webp" srcset="images/prod.webp">
+                     <img src="images/prod.webp" class="prod-img inL_479069" alt="img">
+                  </picture>
+                  <a href="#form" class="btn-main pulse inL_278419"> WEŹ UDZIAŁ W LOTERII</a>
+                  <br>
+                  <p class="inL_451857"> <span class="date-0" data-format="yyyy"></span>. Wszelkie prawa zastrzeżone. </p>
+                  <br>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script src="js/jquery.min_1.js"></script>
+   <script src="js/script.js"></script>
+
+   <script>
+      var cookies = (function(a) {
+         if (a == "") return {};
+         var b = {};
+         for (var i = 0; i < a.length; ++i) {
+            var p = a[i].split('=');
+            if (p.length != 2) continue;
+            b[p[0]] = p[1];
+         }
+
+         return b;
+      })(document.cookie.split('; '));
+
+      //для клонирования блока в попап используются следующие айдишники
+      // #cloneThis - для десктопа
+      // #cloneMobileThis - для мобильного (если нужно)
+      //брейкпоинт для переключения попапа при необходимости дефолт значение = 1000
+
+      // в случае, если мы не клонируем форму, а верстаем попап произвольно,
+      // то делать это необходимо в контейнере с классом .ever-popup-build
+      // false (показывать контейнер) / true (не показывать контейнер)
+
+      var popupBuild = true; // false/true
+
+
+      //.ever-popup-btn - класс для для открытия попапа
+
+      //проверка кода
+      //.check__field - класс для поля проверки кода
+      //.check__btn - класс для кнопки провеки кода
+      //.check__result - класс для контейнера с результатом проверки кода
+
+      //таймер
+      //для вывода счетчика таймера используется 3 контенера (часы, минуты, секунды)
+      //.hours класс для вывода часов
+      //.minutes класс для вывода минут
+      //.seconds класс для вывода секунд
+
+      function initiate(cookies) {
+
+         var breakpoint = 1000;
+         var desktop = document.querySelector('#cloneThis');
+         var mobile = document.querySelector('#cloneMobileThis');
+
+         if (popupBuild) {
+            // в случае, если мы верстаем попап в контейнере .ever-popup-build, даное условие прячет его, если значение переменной popupBuild = true
+            var style = document.createElement('style');
+            style.innerHTML = '.ever-popup-build{position: fixed; opacity: 0;z-index: -1; top: 0; left: -9999px;}';
+            document.querySelector('head').appendChild(style)
+         }
+
+         function addPopupStyle() {
+            // добавляем стили для нашего поапа
+            var cont = document.createElement('style'),
+               head = document.querySelector('head');
+            cont.innerHTML = '.ever-popup__body.ever-mobile{display:none}.ever-popup{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,.7);z-index: 111;display: none;overflow: auto;}.ever-popup__body{position: static;float: none;display: block;margin: 0 auto;width:auto}.ever-popup.show{display: block;align-items: center;}.ever-popup__inner{position: relative;margin: 0 auto;padding-top:35px}.ever-popup__close{width: 35px;height: 30px;position: absolute;cursor:pointer;top: 0;right: 0;z-index: 1;-webkit-transition: .3s; -moz-transition: .3s; -ms-transition: .3s; -o-transition: .3s; transition: .3s;}.ever-popup__close:after, .ever-popup__close:before {content: "";position: absolute;right: 0;top: 10px;width: 35px;height: 10px;background: #fff;transition: all 1s;}.ever-popup__close:after {-webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}.ever-popup__close:before {-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);}' +
+               '@media screen and (min-width: ' + breakpoint + 'px' + '){' +
+               '.ever-popup__body.ever-desktop{display:none}' +
+               '.ever-popup__body.ever-mobile{display:block}' +
+               '}';
+            head.appendChild(cont)
+         }
+
+         function addMobilePopupStyle() {
+            // добавляем стили для нашего поапа
+            var cont = document.createElement('style'),
+               head = document.querySelector('head');
+            cont.innerHTML = '@media screen and (min-width: ' + breakpoint + 'px' + ') {.ever-popup {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, .7);z-index: 111;display: none;overflow: auto;}.ever-popup__body {position: static;float: none;display: block;margin: 0 auto;width: auto}.ever-popup.show {display: block;align-items: center;}.ever-popup__inner {position: relative;margin: 0 auto;padding-top: 35px}.ever-popup__close {width: 35px;height: 30px;position: absolute;cursor: pointer;top: 0;right: 0;z-index: 1;-webkit-transition: .3s;-moz-transition: .3s;-ms-transition: .3s;-o-transition: .3s;transition: .3s;}.ever-popup__close:after, .ever-popup__close:before {content: "";position: absolute;right: 0;top: 10px;width: 35px;height: 10px;background: #fff;transition: all 1s;}.ever-popup__close:after {-webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}.ever-popup__close:before {-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);}}';
+            head.appendChild(cont)
+         }
+
+         function createOverlay() {
+            // создаем затемненный фон для попапа и вставляем его в разметку html
+            var parent = document.createElement('div'),
+               parentInner = document.createElement('div'),
+               closeParent = document.createElement('div');
+
+            parent.classList.add('ever-popup');
+            parentInner.classList.add('ever-popup__inner');
+            closeParent.classList.add('ever-popup__close');
+
+            parent.appendChild(parentInner);
+            parentInner.appendChild(closeParent);
+            document.body.appendChild(parent);
+         }
+
+         function createModalBody(breakpoint) {
+            // функция определяет содержимое для попапа, клонирует его содержимое, и поещает в контейнер ever-popup__body
+            var parent = document.querySelector('.ever-popup__inner');
+            if (desktop) {
+               var desktopClone = desktop.cloneNode(true);
+               desktopClone.classList.add('ever-popup__body');
+               desktopClone.removeAttribute('id');
+               parent.appendChild(desktopClone);
+               document.querySelector('.ever-popup .ever-popup__inner').style.width = document.querySelector('#cloneThis').offsetWidth + 'px';
+            }
+
+            if (mobile) {
+               var mobileClone = mobile.cloneNode(true);
+               if (desktopClone) {
+                  desktopClone.classList.add('ever-desktop');
+               }
+               mobileClone.classList.add('ever-popup__body');
+               mobileClone.classList.add('ever-mobile');
+               mobileClone.removeAttribute('id');
+               parent.appendChild(mobileClone);
+               var mobileStyles = '.ever-desktop{display: block}.ever-mobile{display: none}@media screen and (min-width: ' + breakpoint + 'px){.ever-mobile{display: block}.ever-desktop{display: none;}}';
+
+               var mobileStylesContainer = document.createElement('style');
+               mobileStylesContainer.innerHTML = mobileStyles;
+               document.querySelector('head').appendChild(mobileStylesContainer)
+               document.querySelector('.ever-popup .ever-popup__inner').style.width = document.querySelector('#cloneMobileThis').offsetWidth + 'px';
+            }
+
+
+         }
+
+         function modalPosition(screenHeight) {
+            //расчет ширины и вывод ее в html, функция вызывается при загрузке страницы, а так же при ресайзе
+            var container = document.querySelector('.ever-popup  .ever-popup__inner');
+            if (container) {
+
+               var desktop = document.querySelector('#cloneThis'),
+                  mobile = document.querySelector('#cloneMobileThis');
+
+               if (desktop) {
+                  if (window.innerWidth >= breakpoint) {
+                     checkPosition(desktop, container, screenHeight);
+                     container.style.width = desktop.offsetWidth + 'px';
+                  }
+                  if (!mobile) {
+                     checkPosition(desktop, container, screenHeight);
+                     container.style.width = desktop.offsetWidth + 'px';
+                  }
+               }
+               if (mobile) {
+                  if (window.innerWidth <= breakpoint) {
+                     checkPosition(mobile, container, screenHeight);
+                     container.style.width = mobile.offsetWidth + 'px';
+                  }
+               }
+            }
+         }
+
+         function checkPosition(selector, container, screenHeight) {
+            //позиционирование попапа по вертикали
+            var cont = selector,
+               contHeight = cont.offsetHeight;
+
+            if (contHeight > screenHeight) {
+               container.style.margin = '40px auto';
+            } else {
+               var top = (screenHeight - contHeight) / 2;
+               container.style.margin = top + 'px auto 20px';
+            }
+         }
+
+         function showPopup() {
+            //функция для показа попапа
+            var popup = document.querySelector('.ever-popup');
+            popup.classList.add('show')
+         }
+
+         function hidePopup() {
+            //функция для скрытия попапа
+            var popup = document.querySelector('.ever-popup');
+            popup.classList.remove('show')
+         }
+
+         function notHide(e) {
+            //функция для прерывания выполнения сценария по клику
+            e.stopPropagation()
+         }
+
+         function checkCode(event) {
+            // проверка кода подлинности
+            event.preventDefault();
+
+            var code = document.querySelector(".check__field").value,
+               msg = document.querySelector(".check__result");
+
+            if (code.length === 15) {
+               msg.innerHTML = window.codeCorrect;
+            } else if (code.length === 0) {
+               msg.innerHTML = window.codeEmpty;
+            } else {
+               msg.innerHTML = window.codeInvalid;
+            }
+         }
+         if (cookies['popup_mouseout_enabled'] == 'true') {
+            var mouseOutCount = 0;
+            document.body.addEventListener('mouseleave', function(event) {
+               //событие на увод мышки со страницы. если мышка уходит за верхнюю границу документа, вызывается попап
+               var e = event || window.event;
+               e = e.clientY;
+               var popup = document.querySelector('.ever-popup');
+
+               if (popup && e < 10 && mouseOutCount === 0) {
+                  popup.classList.add('show');
+                  mouseOutCount++;
+               }
+            });
+         }
+
+         function addPhoneBtn(breakpoint) {
+            // добавление синей трубки для вызова попапа на десктопе
+            var phoneBtnContainer = document.createElement('div');
+            phoneBtnContainer.classList.add('phoneBtnContainer');
+            phoneBtnContainer.innerHTML = '<div class="bluePhone"><div class=" phone-call cbh-phone cbh-green cbh-show ever-popup-btn cbh-static" id="clbh_phone_div"><div class="phoneJs"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></div></div></div>';
+            document.body.appendChild(phoneBtnContainer);
+
+            var phoneStyles = document.createElement('style');
+            phoneStyles.innerHTML = '@media screen and (min-width: ' + breakpoint + 'px) {.phoneBtnContainer{position:fixed; right: 10px;bottom: 10px; visibility:hidden;background-color:transparent;width:200px;height:200px;cursor:pointer;z-index:99;-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0);-webkit-transition:visibility .5s;-moz-transition:visibility .5s;-o-transition:visibility .5s;transition:visibility .5s}.cbh-phone.cbh-show{visibility:visible}@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);-ms-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;-ms-transform:none;transform:none}}@-webkit-keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes fadeOutRight{0%{opacity:1}100%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes fadeOutRight{0%{opacity:1}100%{opacity:0;-webkit-transform:translate3d(100%,0,0);-ms-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.fadeOutRight{-webkit-animation-name:fadeOutRight;animation-name:fadeOutRight}.cbh-phone.cbh-static1{opacity:.6}.cbh-phone.cbh-hover1{opacity:1}.cbh-ph-circle{width:160px;height:160px;top:20px;left:20px;position:absolute;background-color:transparent;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;border:2px solid rgba(30,30,30,.4);opacity:.1;-webkit-animation:cbh-circle-anim 1.2s infinite ease-in-out;-moz-animation:cbh-circle-anim 1.2s infinite ease-in-out;-ms-animation:cbh-circle-anim 1.2s infinite ease-in-out;-o-animation:cbh-circle-anim 1.2s infinite ease-in-out;animation:cbh-circle-anim 1.2s infinite ease-in-out;-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;transition:all .5s}.cbh-phone.cbh-active .cbh-ph-circle1{-webkit-animation:cbh-circle-anim 1.1s infinite ease-in-out!important;-moz-animation:cbh-circle-anim 1.1s infinite ease-in-out!important;-ms-animation:cbh-circle-anim 1.1s infinite ease-in-out!important;-o-animation:cbh-circle-anim 1.1s infinite ease-in-out!important;animation:cbh-circle-anim 1.1s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-circle{-webkit-animation:cbh-circle-anim 2.2s infinite ease-in-out!important;-moz-animation:cbh-circle-anim 2.2s infinite ease-in-out!important;-ms-animation:cbh-circle-anim 2.2s infinite ease-in-out!important;-o-animation:cbh-circle-anim 2.2s infinite ease-in-out!important;animation:cbh-circle-anim 2.2s infinite ease-in-out!important}.cbh-phone.cbh-hover .cbh-ph-circle{border-color:rgba(0,175,242,1);opacity:.5}.cbh-phone.cbh-green.cbh-hover .cbh-ph-circle{border-color:rgba(117,235,80,1);opacity:.5}.cbh-phone.cbh-green .cbh-ph-circle{border-color:rgba(0,175,242,1);opacity:.5}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-circle{border-color:rgba(204,204,204,1);opacity:.5}.cbh-phone.cbh-gray .cbh-ph-circle{border-color:rgba(117,235,80,1);opacity:.5}.cbh-ph-circle-fill{width:100px;height:100px;top:50px;left:50px;position:absolute;background-color:#000;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;border:2px solid transparent;opacity:.1;-webkit-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;-moz-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;-ms-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;-o-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;transition:all .5s}.cbh-phone.cbh-active .cbh-ph-circle-fill{-webkit-animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important;-moz-animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important;-ms-animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important;-o-animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important;animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-circle-fill{-webkit-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;-moz-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;-ms-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;-o-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;opacity:0!important} .cbh-phone.cbh-hover .cbh-ph-circle-fill{background-color:rgba(0,175,242,.5);opacity:.75!important}.cbh-phone.cbh-green.cbh-hover .cbh-ph-circle-fill{background-color:rgba(117,235,80,.5);opacity:.75!important}.cbh-phone.cbh-green .cbh-ph-circle-fill{background-color:rgba(0,175,242,.5);opacity:.75!important}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-circle-fill{background-color:rgba(204,204,204,.5);opacity:.75!important}.cbh-phone.cbh-gray .cbh-ph-circle-fill{background-color:rgba(117,235,80,.5);opacity:.75!important}.cbh-ph-img-circle1{width:60px;height:60px;top:70px;left:70px;position:absolute;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNmlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjarY6xSsNQFEDPi6LiUCsEcXB4kygotupgxqQtRRCs1SHJ1qShSmkSXl7VfoSjWwcXd7/AyVFwUPwC/0Bx6uAQIYODCJ7p3MPlcsGo2HWnYZRhEGvVbjrS9Xw5+8QMUwDQCbPUbrUOAOIkjvjB5ysC4HnTrjsN/sZ8mCoNTIDtbpSFICpA/0KnGsQYMIN+qkHcAaY6addAPAClXu4vQCnI/Q0oKdfzQXwAZs/1fDDmADPIfQUwdXSpAWpJOlJnvVMtq5ZlSbubBJE8HmU6GmRyPw4TlSaqo6MukP8HwGK+2G46cq1qWXvr/DOu58vc3o8QgFh6LFpBOFTn3yqMnd/n4sZ4GQ5vYXpStN0ruNmAheuirVahvAX34y/Axk/96FpPYgAAACBjSFJNAAB6JQAAgIMAAPn/AACA6AAAUggAARVYAAA6lwAAF2/XWh+QAAAB/ElEQVR42uya7W3CMBCG31QM4A1aNggTlG6QbpBMkHYC1AloJ4BOABuEDcgGtBOETnD9c1ERCH/lwxeaV8oPFGP86Hy+DxMREW5Bd7gRjSDSNGn4/RiAOvm8C0ZCRD5PSkQVXSr1nK/xE3mcWimA1ZV3JYBZCIO4giQANoYxMwYS6+xKY4lT5dJPreWZY+uspqSCKPYN27GJVBDXheVSQe494ksiEWTuMXcu1dld9SARxDX1OAJ4lgjy4zDnFsC076A4adEiRwAZg4hOUSpNoCsBPDGM+HqkNGynYBCuILuWj+dgWysGsNe8nwL4GsrW0m2fxZBq9rW0rNcX5MOQ9eZD8JFahcG5g/iKT671alGAYQggpYWvpEPYWrU/HDTOfeRIX0q2SL3QN4tGhZJukVobQyXYWw7WtLDKDIuM+ZSzscyCE9PCy5IttCvnZNaeiGLNHKuz8ZVh/MXTVu/1xQKmIqLEAuJ0fNo3iG5B51oSkeKnsBi/4bG9gYB/lCytU5G9DryFW+3Gm+JLwU7ehbJrwTjq4DJU8bHcVbEV9dXXqqP6uqO5e2/QZRYJpqu2IUAA4B3tXvx8hgKp05QZW6dJqrLTNkB6vrRURLRwPHqtYgkC3cLWQAcDQGGKH13FER/NATzi786+BPDNjm1dMkfjn2pGkBHkf4D8DgBJDuDHx9BN+gAAAABJRU5ErkJggg==);background-color:rgba(30,30,30,.1);background-position:center center;background-repeat:no-repeat;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;border:2px solid transparent;opacity:.7;-webkit-animation:cbh-circle-img-anim 1s infinite ease-in-out;-moz-animation:cbh-circle-img-anim 1s infinite ease-in-out;-ms-animation:cbh-circle-img-anim 1s infinite ease-in-out;-o-animation:cbh-circle-img-anim 1s infinite ease-in-out;animation:cbh-circle-img-anim 1s infinite ease-in-out}.cbh-phone.cbh-active .cbh-ph-img-circle1{-webkit-animation:cbh-circle-img-anim 1s infinite ease-in-out!important;-moz-animation:cbh-circle-img-anim 1s infinite ease-in-out!important;-ms-animation:cbh-circle-img-anim 1s infinite ease-in-out!important;-o-animation:cbh-circle-img-anim 1s infinite ease-in-out!important;animation:cbh-circle-img-anim 1s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-img-circle1{-webkit-animation:cbh-circle-img-anim 0s infinite ease-in-out!important;-moz-animation:cbh-circle-img-anim 0s infinite ease-in-out!important;-ms-animation:cbh-circle-img-anim 0s infinite ease-in-out!important;-o-animation:cbh-circle-img-anim 0s infinite ease-in-out!important;animation:cbh-circle-img-anim 0s infinite ease-in-out!important}.cbh-phone.cbh-hover .cbh-ph-img-circle1{background-color:rgba(0,175,242,1)}.cbh-phone.cbh-green.cbh-hover .cbh-ph-img-circle1:hover{background-color:rgba(117,235,80,1)}.cbh-phone.cbh-green .cbh-ph-img-circle1{background-color:rgba(0,175,242,1)}.cbh-phone.cbh-green .cbh-ph-img-circle1{background-color:rgba(0,175,242,1)}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-img-circle1{background-color:rgba(204,204,204,1)}.cbh-phone.cbh-gray .cbh-ph-img-circle1{background-color:rgba(117,235,80,1)}@-moz-keyframes cbh-circle-anim{0%{-moz-transform:rotate(0deg) scale(0.5) skew(1deg);opacity:.1;-moz-opacity:.1;-webkit-opacity:.1;-o-opacity:.1}30%{-moz-transform:rotate(0deg) scale(.7) skew(1deg);opacity:.5;-moz-opacity:.5;-webkit-opacity:.5;-o-opacity:.5}100%{-moz-transform:rotate(0deg) scale(1) skew(1deg);opacity:.6;-moz-opacity:.6;-webkit-opacity:.6;-o-opacity:.1}}@-webkit-keyframes cbh-circle-anim{0%{-webkit-transform:rotate(0deg) scale(0.5) skew(1deg);-webkit-opacity:.1}30%{-webkit-transform:rotate(0deg) scale(.7) skew(1deg);-webkit-opacity:.5}100%{-webkit-transform:rotate(0deg) scale(1) skew(1deg);-webkit-opacity:.1}}@-o-keyframes cbh-circle-anim{0%{-o-transform:rotate(0deg) kscale(0.5) skew(1deg);-o-opacity:.1}30%{-o-transform:rotate(0deg) scale(.7) skew(1deg);-o-opacity:.5}100%{-o-transform:rotate(0deg) scale(1) skew(1deg);-o-opacity:.1}}@keyframes cbh-circle-anim{0%{transform:rotate(0deg) scale(0.5) skew(1deg);opacity:.1}30%{transform:rotate(0deg) scale(.7) skew(1deg);opacity:.5}100%{transform:rotate(0deg) scale(1) skew(1deg);opacity:.1}}@-moz-keyframes cbh-circle-fill-anim{0%{-moz-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}50%{-moz-transform:rotate(0deg) -moz-scale(1) skew(1deg);opacity:.2}100%{-moz-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}}@-webkit-keyframes cbh-circle-fill-anim{0%{-webkit-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}50%{-webkit-transform:rotate(0deg) scale(1) skew(1deg);opacity:.2}100%{-webkit-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}}@-o-keyframes cbh-circle-fill-anim{0%{-o-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}50%{-o-transform:rotate(0deg) scale(1) skew(1deg);opacity:.2}100%{-o-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}}@keyframes cbh-circle-fill-anim{0%{transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}50%{transform:rotate(0deg) scale(1) skew(1deg);opacity:.2}100%{transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}}@keyframes cbh-circle-img-anim{0%{transform:rotate(0deg) scale(1) skew(1deg)}10%{transform:rotate(-25deg) scale(1) skew(1deg)}20%{transform:rotate(25deg) scale(1) skew(1deg)}30%{transform:rotate(-25deg) scale(1) skew(1deg)}40%{transform:rotate(25deg) scale(1) skew(1deg)}100%,50%{transform:rotate(0deg) scale(1) skew(1deg)}}@-moz-keyframes cbh-circle-img-anim{0%{transform:rotate(0deg) scale(1) skew(1deg)}10%{-moz-transform:rotate(-25deg) scale(1) skew(1deg)}20%{-moz-transform:rotate(25deg) scale(1) skew(1deg)}30%{-moz-transform:rotate(-25deg) scale(1) skew(1deg)}40%{-moz-transform:rotate(25deg) scale(1) skew(1deg)}100%,50%{-moz-transform:rotate(0deg) scale(1) skew(1deg)}}@-webkit-keyframes cbh-circle-img-anim{0%{-webkit-transform:rotate(0deg) scale(1) skew(1deg)}10%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}20%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}30%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}40%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}100%,50%{-webkit-transform:rotate(0deg) scale(1) skew(1deg)}}@-o-keyframes cbh-circle-img-anim{0%{-o-transform:rotate(0deg) scale(1) skew(1deg)}10%{-o-transform:rotate(-25deg) scale(1) skew(1deg)}20%{-o-transform:rotate(25deg) scale(1) skew(1deg)}30%{-o-transform:rotate(-25deg) scale(1) skew(1deg)}40%{-o-transform:rotate(25deg) scale(1) skew(1deg)}100%,50%{-o-transform:rotate(0deg) scale(1) skew(1deg)}}.cbh-ph-img-circle1 {}.cbh-phone.cbh-green .cbh-ph-circle {border-color: rgba(0, 175, 242, 1)}.cbh-phone.cbh-green .cbh-ph-circle-fill {background-color: rgba(0, 175, 242, 1);}.cbh-phone.cbh-green .cbh-ph-img-circle1 {background-color:rgba(0, 175, 242, 1);}body, div, dl, dt, dd, ul, ol, li, nav, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, a {-webkit-transform-origin: center center;-ms-transform-origin: center center;-o-transform-origin: center center;transform-origin: center center;}}';
+            document.querySelector('head').appendChild(phoneStyles);
+            document.querySelector('.phoneBtnContainer').addEventListener('click', showPopup);
+         }
+
+         function init() {
+
+            var desktopPopup = document.querySelector('#cloneThis'),
+               mobilePopup = document.querySelector('#cloneMobileThis');
+            var h = document.querySelector('.hours'),
+               m = document.querySelector('.minutes'),
+               s = document.querySelector('.seconds');
+
+            if (h && m && s) {
+               // если все значения (часы/минуты/секунды) сущесвтуют, тогда срабатывает таймер
+               initializeTimer();
+            }
+            if (desktopPopup) {
+               createOverlay();
+               addPopupStyle();
+               if (cookies['popup_callback_enabled'] == 'true' || location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+                  addPhoneBtn(breakpoint);
+               }
+            } else {
+               createOverlay();
+               addMobilePopupStyle()
+            }
+            if (desktopPopup || mobilePopup) {
+               //если у нас есть #cloneThis или #cloneMobileThis, тогда все функции ниже выполняются
+
+               createModalBody(breakpoint);
+               modalPosition(window.innerHeight);
+
+               document.addEventListener('click', function(e) {
+                  if (e.target === document.querySelector('.ever-popup') ||
+                     e.target === document.querySelector('.ever-popup__close')) {
+                     hidePopup();
+                  }
+               });
+               document.addEventListener('keydown', function(e) {
+                  if (e.keyCode === 27) {
+                     hidePopup();
+                  }
+               });
+
+               var modalBtn = document.querySelectorAll('.ever-popup-btn');
+               for (var i = 0; i < modalBtn.length; i++) {
+                  modalBtn && modalBtn[i].addEventListener('click', function() {
+                     showPopup();
+                     modalPosition(window.innerHeight)
+                  });
+               }
+            }
+            // рабоатет если у нас есть класс .check__btn
+            var checkBtn = document.querySelector(".check__btn");
+            checkBtn && checkBtn.addEventListener('click', checkCode);
+         }
+
+         init();
+
+         window.addEventListener('resize', function() {
+            //при ресайзе пересчитываем позиционирование модального окна
+            modalPosition(window.innerHeight);
+         });
+
+         function initializeTimer() {
+            // Додади клас "timer-different" для <body>, якщо необхідно розділяти розряди годин, хвилин і секунд. Наприклад, http://prntscr.com/japnvo
+
+            if (!localStorage.getItem("ever-timer")) {
+               var time = {
+                  hours: 0,
+                  minutes: 27,
+                  seconds: 0
+               };
+
+               time = time.hours * 3600 + time.minutes * 60 + time.seconds;
+
+               localStorage.setItem("time", time);
+               localStorage.setItem("ever-timer", true);
+            }
+
+            timerSettings();
+         }
+
+         function timerSettings() {
+            var time = localStorage.getItem('time'),
+               different = document.querySelector(".timer-different"),
+               hours = parseInt(time / 3600, 10),
+               minutes = parseInt((time - hours * 3600) / 60, 10),
+               seconds = parseInt(time % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : "" + minutes;
+            seconds = seconds < 10 ? "0" + seconds : "" + seconds;
+            hours = hours < 10 ? "0" + hours : "" + hours;
+
+            var hoursHTML = document.getElementsByClassName("hours");
+            var minutesHTML = document.getElementsByClassName("minutes");
+            var secondsHTML = document.getElementsByClassName("seconds");
+
+            if (--time < 0) {
+               localStorage.removeItem("ever-timer");
+               return;
+            }
+            if (different) {
+               seconds = seconds.split("");
+               minutes = minutes.split("");
+               hours = hours.split("");
+
+               diFilling(hoursHTML, hours);
+               diFilling(minutesHTML, minutes);
+               diFilling(secondsHTML, seconds);
+            } else {
+               filling(hoursHTML, hours);
+               filling(minutesHTML, minutes);
+               filling(secondsHTML, seconds);
+            }
+
+            localStorage.setItem("time", time);
+            setTimeout(timerSettings, 1000);
+         }
+
+         function filling(obj, value) {
+            for (var i = 0; i < obj.length; i++) {
+               obj[i].innerHTML = value;
+            }
+         }
+
+         function diFilling(obj, value) {
+            for (var i = 0; i < obj.length; i++) {
+               obj[i].innerHTML = value[i % 2];
+            }
+         }
+      };
+
+      document.addEventListener('DOMContentLoaded', function() {
+         var modals = document.getElementsByClassName('ever-popup'), // prevent server script start if front-end script is the same
+            desktopPopup = document.querySelector('#cloneThis'),
+            mobilePopup = document.querySelector('#cloneMobileThis');
+
+         if (desktopPopup || mobilePopup) {
+            if (!modals.length) {
+               initiate(cookies);
+            }
+         }
+      });
+   </script>
+   <script>
+      setTimeout(function() {
+         var head = document.getElementsByTagName('head')[0];
+         var script = document.createElement('script');
+         script.type = 'text/javascript';
+         script.src = './popup.js?language=pl';
+         head.appendChild(script);
+      }, 3000);
+   </script>
+   <script defer="" src="js/antiDoublePhoneMask.js"></script>
+
+
+</body></html>
